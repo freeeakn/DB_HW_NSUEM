@@ -2,7 +2,7 @@ CREATE TABLE IF NOT EXISTS `Teachers` (
     id INT PRIMARY KEY AUTO_INCREMENT,
     first_name VARCHAR(100) NOT NULL,
     surname VARCHAR(100) NOT NULL,
-    last_name VARCHAR(100)
+    last_name VARCHAR(100) NOT NULL,
 );
 
 CREATE TABLE IF NOT EXISTS `Subjects` (
